@@ -44,7 +44,7 @@ int main(void){
 		PORTC = cntavail;
 	}
 
-return 0;
+return 1;
 
 }
 
