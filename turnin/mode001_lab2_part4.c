@@ -14,7 +14,7 @@
  */
 
 #include <avr/io.h>
-#ifdef _SIIMULATE_
+#ifdef _SIMULATE_
 #include "simAVRHeader.h"
 #endif
 
