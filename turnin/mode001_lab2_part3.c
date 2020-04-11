@@ -8,7 +8,7 @@
  */
 
 #include <avr/io.h>
-#ifdef _STIMULATE_
+#ifdef _SIMULATE_
 #include "simAVRHeader.h"
 #endif
 

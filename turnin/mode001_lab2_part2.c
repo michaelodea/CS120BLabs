@@ -8,7 +8,7 @@
  */
 
 #include <avr/io.h>
-#ifdef _STIMULATE_
+#ifdef _SIMULATE_
 #include "simAVRHeader.h"
 #endif
 
@@ -44,7 +44,7 @@ int main(void){
 		PORTC = cntavail;
 	}
 
-return 1;
+return 0;
 
 }
 
